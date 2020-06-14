@@ -1,0 +1,28 @@
+.button
+  display: block 
+  width: 100%
+  padding: 16px 30px
+  border: none 
+  outline: none
+  background-color: $color-main 
+  font-size: 14px
+  font-weight: 500
+  line-height: 1.35
+  color: #fff
+  text-align: center
+  transition: .2s
+  cursor: pointer
+  &:hover 
+    transform: scale(1.02)
+    box-shadow: 5px 5px 10px 0px rgba(124, 202, 99, .2)
+  &--gray
+    background-color: #E7E7E7
+    color: $color-dark
+    &:hover 
+      box-shadow: 5px 5px 10px 0px rgba(231, 231, 231, .2)
+  i 
+    margin-left: 9px
+    font-size: 17px
+    vertical-align: middle
+  +media-sm 
+    padding: 12px 15px

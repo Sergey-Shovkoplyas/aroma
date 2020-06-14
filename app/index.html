@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 
-	<title>Start template</title>
+	<title>Aroma</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,27 +19,490 @@
 	<meta name="theme-color" content="#000">
 	<!-- Custom Browsers Color End -->
 
-	<!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
 <body>
 
-	<section class="section-first">
-		<div class="container">
-			First-section
+	<header class="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="header-top__row">
+					<div class="header-top__left">
+						<a href="tel:+37360465946" class="header-top__contact">
+							<i class="icon-phone"></i>
+							<span>+373 60465946</span>
+						</a>
+						<a href="mailto:aromanaturii@gmail.com" class="header-top__contact">
+							<i class="icon-mail"></i>
+							<span>aromanaturii@gmail.com</span>
+						</a>
+					</div>
+					<div class="header-top__right">
+						<a href="#" class="header-top__cart"><i class="icon-cart"></i></a>
+						<a href="#" class="header-top__personal"><i class="icon-personal"></i></a>
+						<ul class="header-top__language">
+							<li class="active"><a>RO</a></li>
+							<li><a href="#">| РУ</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
-	</section>
-
-	<section class="section-second">
-		<div class="container">
-			Second-section
+		<div class="header-bottom">
+			<div class="container">
+				<div class="header-bottom__row">
+					<div class="header-bottom__left">
+						<div class="header-bottom__nav-btn">
+							<div class="nav-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+						</div> 
+						<div class="header-bottom__nav-wrap">
+							<ul class="header-bottom__nav">
+								<li><a href="#">Despre noi</a></li>
+								<li><a href="#">Ceai</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contacte</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="header-bottom__mid">
+						<a href="#" class="header-bottom__logo">
+							<img src="img/logo.png" alt="aroma">
+						</a>
+					</div>
+					<div class="header-bottom__right">
+						<form action="#" class="header-bottom__search">
+							<input type="text" class="header-bottom__search-input" placeholder="Cauta">
+							<button type="submit" class="header-bottom__search-btn"><i class="icon-search"></i></button>
+						</form>
+						<div class="header-bottom__search-mobile">
+							<i class="icon-search"></i>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</section>
 
+	</header>
+	<main>
+		<section class="home__top">
+			<div class="container">
+				<div class="home__toptitle">Magazinul</div>
+				<h1 class="home__top-title">Aroma <span class="mark">Naturii</span></h1>
+				<div class="home__top-text">Do voluptate nulla proident nisi eiusmod velit incididunt. Esse cillum irure voluptate velit nulla reprehenderit laboris ipsum anim consectetur esse eiusmod proident consectetur.</div>
+				<div class="home__top-btn">
+					<a href="#" class="button">
+						<span>In magazin</span>
+						<i class="icon-arrow"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="home__recommend">
+			<div class="container">
+				<div class="home__toptitle home__toptitle--center">preturi</div>
+				<h2 class="home__subtitle home__subtitle--center">Ceaiuri recomandate</h2>
+				<div class="home__recommend-wrap">
+					<div class="home__recommend-controls">
+						<div class="controls">
+							<div class="controls__prev controls__btn">
+								<i class="icon-arrow-left"></i>
+							</div>
+							<div class="controls__pagination">
+								<span class="controls__current">1</span>/<span class="controls__total">4</span>
+							</div>
+							<div class="controls__next controls__btn">
+								<i class="icon-arrow-right"></i>
+							</div>
+						</div>
+					</div>
+					<div class="home__recommend-slider">
+
+						<div class="home__recommend-item">
+							<div class="card">
+								<div class="card__img">
+									<a href="#"><img src="img/product-1.png" alt="aroma"></a>
+								</div>
+								<div class="card__title">
+									<a href="#">Goji Acai</a>
+								</div>
+								<div class="card__text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: ceai verde fin din Ceylon </div>
+								<div class="card__bottom">
+									<div class="card__price">
+										<span class="card__price-value">65 lei/</span>
+										<span class="card__price-quantity">50g</span>
+									</div>
+									<a href="#" class="card__to-cart"><i class="icon-cart"></i></a>
+								</div>
+								<div class="card__sticker card__sticker--green">Herbal</div>
+							</div>
+						</div>
+
+						<div class="home__recommend-item">
+							<div class="card">
+								<div class="card__img">
+									<a href="#"><img src="img/product-2.png" alt="aroma"></a>
+								</div>
+								<div class="card__title">
+									<a href="#">Summertime</a>
+								</div>
+								<div class="card__text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: ceai verde fin din Ceylon </div>
+								<div class="card__bottom">
+									<div class="card__price">
+										<span class="card__price-value">65 lei/</span>
+										<span class="card__price-quantity">50g</span>
+									</div>
+									<a href="#" class="card__to-cart"><i class="icon-cart"></i></a>
+								</div>
+								<div class="card__sticker card__sticker--red">fruit</div>
+							</div>
+						</div>
+
+						<div class="home__recommend-item">
+							<div class="card">
+								<div class="card__img">
+									<a href="#"><img src="img/product-3.png" alt="aroma"></a>
+								</div>
+								<div class="card__title">
+									<a href="#">Extra citrus</a>
+								</div>
+								<div class="card__text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: ceai verde fin din Ceylon </div>
+								<div class="card__bottom">
+									<div class="card__price">
+										<span class="card__price-value">65 lei/</span>
+										<span class="card__price-quantity">50g</span>
+									</div>
+									<a href="#" class="card__to-cart"><i class="icon-cart"></i></a>
+								</div>
+								<div class="card__sticker card__sticker--red">fruit</div>
+							</div>
+						</div>
+
+						<div class="home__recommend-item">
+							<div class="card">
+								<div class="card__img">
+									<a href="#"><img src="img/product-1.png" alt="aroma"></a>
+								</div>
+								<div class="card__title">
+									<a href="#">Goji Acai</a>
+								</div>
+								<div class="card__text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: ceai verde fin din Ceylon </div>
+								<div class="card__bottom">
+									<div class="card__price">
+										<span class="card__price-value">65 lei/</span>
+										<span class="card__price-quantity">50g</span>
+									</div>
+									<a href="#" class="card__to-cart"><i class="icon-cart"></i></a>
+								</div>
+								<div class="card__sticker card__sticker--green">Herbal</div>
+							</div>
+						</div>
+
+						<div class="home__recommend-item">
+							<div class="card">
+								<div class="card__img">
+									<a href="#"><img src="img/product-2.png" alt="aroma"></a>
+								</div>
+								<div class="card__title">
+									<a href="#">Summertime</a>
+								</div>
+								<div class="card__text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: ceai verde fin din Ceylon </div>
+								<div class="card__bottom">
+									<div class="card__price">
+										<span class="card__price-value">65 lei/</span>
+										<span class="card__price-quantity">50g</span>
+									</div>
+									<a href="#" class="card__to-cart"><i class="icon-cart"></i></a>
+								</div>
+								<div class="card__sticker card__sticker--red">fruit</div>
+							</div>
+						</div>
+
+						<div class="home__recommend-item">
+							<div class="card">
+								<div class="card__img">
+									<a href="#"><img src="img/product-3.png" alt="aroma"></a>
+								</div>
+								<div class="card__title">
+									<a href="#">Extra citrus</a>
+								</div>
+								<div class="card__text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: ceai verde fin din Ceylon </div>
+								<div class="card__bottom">
+									<div class="card__price">
+										<span class="card__price-value">65 lei/</span>
+										<span class="card__price-quantity">50g</span>
+									</div>
+									<a href="#" class="card__to-cart"><i class="icon-cart"></i></a>
+								</div>
+								<div class="card__sticker card__sticker--red">fruit</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="home__about">
+			<div class="container">
+				<div class="home__about-wrap">
+					<div class="home__toptitle">Depre noi</div>
+					<h2 class="home__subtitle home__about-title">Cine noi suntem?</h2>
+					<div class="home__about-text">Do voluptate nulla proident nisi eiusmod velit incididunt. Esse cillum irure voluptate velit nulla reprehenderit laboris ipsum anim consectetur esse eiusmod proident consectetur.</div>
+					<div class="home__about-btn">
+						<a href="#" class="button">
+							<span>In magazin</span>
+							<i class="icon-arrow"></i>
+						</a>
+					</div>
+					<div class="home__about-img">
+						<img src="img/home-about.png" alt="aroma">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="home__features">
+			<div class="container">
+				<div class="home__toptitle home__toptitle--center">Features</div>
+				<h2 class="home__subtitle home__subtitle--center">caracteristicile noastre</h2>
+				<div class="home__features-wrap">
+					<div class="home__features-img">
+						<img src="img/home-features.png" alt="aroma">
+					</div>
+					<div class="home__features-row">
+
+						<div class="home__features-item">
+							<div class="home__features-icon"><i class="icon-plant"></i></div>
+							<h3 class="home__features-subtitle">ingrediente atent selectate</h3>
+							<div class="home__features-text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă:</div>
+						</div>
+
+						<div class="home__features-item">
+							<div class="home__features-icon"><i class="icon-eco"></i></div>
+							<h3 class="home__features-subtitle">ingrediente Bio</h3>
+							<div class="home__features-text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: </div>
+						</div>
+
+						<div class="home__features-item">
+							<div class="home__features-icon"><i class="icon-heart"></i></div>
+							<h3 class="home__features-subtitle">ingrediente atent selectate</h3>
+							<div class="home__features-text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă:</div>
+						</div>
+
+						<div class="home__features-item">
+							<div class="home__features-icon"><i class="icon-cup"></i></div>
+							<h3 class="home__features-subtitle">ingrediente Bio</h3>
+							<div class="home__features-text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: </div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="home__articles">
+			<div class="container">
+				<div class="home__toptitle home__toptitle--center">noutățile</div>
+				<h2 class="home__subtitle home__subtitle--center">Articole utile</h2>
+				<div class="home__articles-row">
+
+					<div class="home__articles-item">
+						<div class="article">
+							<div class="article__img">
+								<a href="#"><img src="img/article-1.jpg" alt="aroma"></a>
+							</div>
+							<h3 class="article__title"><a href="#">Parfumul ceaiurilor de vară</a></h3>
+							<div class="article__text">Mai întâi au fost zambilele și freziile, cu parfumul lor delicat. Apoi – liliacul, cu mireasma neîmblânzită </div>
+							<a href="#" class="article__detail">
+								<span>Detalii</span>
+								<i class="icon-arrow"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="home__articles-item">
+						<div class="article">
+							<div class="article__img">
+								<a href="#"><img src="img/article-2.jpg" alt="aroma"></a>
+							</div>
+							<h3 class="article__title"><a href="#">Parfumul ceaiurilor de vară</a></h3>
+							<div class="article__text">Mai întâi au fost zambilele și freziile, cu parfumul lor delicat. Apoi – liliacul, cu mireasma neîmblânzită </div>
+							<a href="#" class="article__detail">
+								<span>Detalii</span>
+								<i class="icon-arrow"></i>
+							</a>
+						</div>
+					</div>
+
+					<div class="home__articles-item">
+						<div class="article article--full">
+							<h3 class="article__title"><a href="#">Parfumul ceaiurilor de vară</a></h3>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section class="home__popular">
+			<div class="container">
+				<h2 class="home__subtitle home__subtitle--center">Ceaiuri  populare</h2>
+				<div class="home__popular-row">
 	
-	<!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+					<div class="home__popular-item">
+						<div class="card card--small">
+							<div class="card__img">
+								<a href="#"><img src="img/product-1.png" alt="aroma"></a>
+							</div>
+							<div class="card__title">
+								<a href="#">Goji Acai</a>
+							</div>
+							<div class="card__text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: ceai verde fin din Ceylon </div>
+							<div class="card__bottom">
+								<div class="card__price">
+									<span class="card__price-value">65 lei/</span>
+									<span class="card__price-quantity">50g</span>
+								</div>
+								<a href="#" class="card__to-cart"><i class="icon-cart"></i></a>
+							</div>
+							<div class="card__sticker card__sticker--green">Herbal</div>
+						</div>
+					</div>
+
+					<div class="home__popular-item">
+						<div class="card card--small">
+							<div class="card__img">
+								<a href="#"><img src="img/product-2.png" alt="aroma"></a>
+							</div>
+							<div class="card__title">
+								<a href="#">Herbal mix</a>
+							</div>
+							<div class="card__text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: ceai verde fin din Ceylon </div>
+							<div class="card__bottom">
+								<div class="card__price">
+									<span class="card__price-value">65 lei/</span>
+									<span class="card__price-quantity">50g</span>
+								</div>
+								<a href="#" class="card__to-cart"><i class="icon-cart"></i></a>
+							</div>
+							<div class="card__sticker card__sticker--green">Herbal</div>
+						</div>
+					</div>
+
+					<div class="home__popular-item">
+						<div class="card card--small">
+							<div class="card__img">
+								<a href="#"><img src="img/product-3.png" alt="aroma"></a>
+							</div>
+							<div class="card__title">
+								<a href="#">Summer fruits</a>
+							</div>
+							<div class="card__text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: ceai verde fin din Ceylon </div>
+							<div class="card__bottom">
+								<div class="card__price">
+									<span class="card__price-value">65 lei/</span>
+									<span class="card__price-quantity">50g</span>
+								</div>
+								<a href="#" class="card__to-cart"><i class="icon-cart"></i></a>
+							</div>
+							<div class="card__sticker card__sticker--green">Herbal</div>
+						</div>
+					</div>
+
+					<div class="home__popular-item">
+						<div class="card card--small">
+							<div class="card__img">
+								<a href="#"><img src="img/product-4.png" alt="aroma"></a>
+							</div>
+							<div class="card__title">
+								<a href="#">Berry mix</a>
+							</div>
+							<div class="card__text">Începeți dimineața cu un ceai revigorant, care aduce împreună plante de pe întreaga planetă: ceai verde fin din Ceylon </div>
+							<div class="card__bottom">
+								<div class="card__price">
+									<span class="card__price-value">65 lei/</span>
+									<span class="card__price-quantity">50g</span>
+								</div>
+								<a href="#" class="card__to-cart"><i class="icon-cart"></i></a>
+							</div>
+							<div class="card__sticker card__sticker--green">Herbal</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="home__popular-btn">
+					<a href="#" class="button">
+						<span>In magazin</span>
+						<i class="icon-arrow"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__logo">
+				<a href="#"><img src="img/logo-footer.png" alt="aroma"></a>
+			</div>
+			<div class="footer__row">
+
+				<div class="footer__item">
+					<div class="footer__item-title">Herbal ceai</div>
+					<ul class="footer__item-list">
+						<li><a href="#">Ceai de melissa</a></li>
+						<li><a href="#">Ceai de romanita</a></li>
+						<li><a href="#">Ceai de minta</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__item">
+					<div class="footer__item-title">ceai de fructe</div>
+					<ul class="footer__item-list">
+						<li><a href="#">Ceai de maciesi</a></li>
+						<li><a href="#">Ceai de fragi de padure</a></li>
+						<li><a href="#">Ceai de cimbru</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__item">
+					<div class="footer__item-title">About&Support</div>
+					<ul class="footer__item-list">
+						<li><a href="#">Despre noi</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Livrarea</a></li>
+					</ul>
+				</div>
+
+				<div class="footer__item">
+					<div class="footer__item-title">Contacte</div>
+					<ul class="footer__item-list footer__item-list--contacte">
+						<li><a href="mailto:aromanaturii@gmail.com">aromanaturii@gmail.com</a></li>
+						<li><a href="tel:+37360778493">+373 60 77 84 93</a></li>
+					</ul>
+				</div>
+
+
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="footer-bottom__row">
+					<div class="footer-bottom__copy">©Copyright Aroma naturii 2020</div>
+					<div class="footer-bottom__social">
+						<a href="#"><i class="icon-facebook"></i></a>
+						<a href="#"><i class="icon-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
 	<script src="js/common.js"></script>
 
 </body>

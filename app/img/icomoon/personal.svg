@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="personal.svg"
+   id="svg374"
+   version="1.1"
+   fill="none"
+   viewBox="0 0 17 20"
+   height="20"
+   width="17">
+  <metadata
+     id="metadata380">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs378" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg374"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="12.795314"
+     inkscape:cx="-35.132339"
+     inkscape:zoom="2.65625"
+     showgrid="false"
+     id="namedview376"
+     inkscape:window-height="480"
+     inkscape:window-width="708"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path385"
+     d="M 8.3339844 0.099609375 C 5.7613176 0.099609375 3.7675781 2.4139928 3.7675781 5.125 C 3.7675781 7.8360073 5.7613176 10.152344 8.3339844 10.152344 C 10.906651 10.152344 12.902344 7.8360074 12.902344 5.125 C 12.902344 2.4139927 10.906651 0.099609217 8.3339844 0.099609375 z M 8.3339844 1.9003906 C 9.8122599 1.9003905 11.101563 3.2786968 11.101562 5.125 C 11.101563 6.9713032 9.8122599 8.3515626 8.3339844 8.3515625 C 6.8557089 8.3515625 5.5683593 6.9713032 5.5683594 5.125 C 5.5683594 3.2786969 6.8557089 1.9003906 8.3339844 1.9003906 z "
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1" />
+  <path
+     id="path389"
+     d="M 8.3339844 11.560547 C 6.1387612 11.560547 4.162612 12.172476 2.6835938 13.066406 C 1.2045755 13.960337 0.099609375 15.131823 0.099609375 16.585938 C 0.099609375 17.559617 0.41941767 18.414748 1.0234375 18.964844 C 1.6274573 19.51494 2.3943409 19.731902 3.1796875 19.830078 C 4.7503806 20.02643 6.5752595 19.779297 8.3339844 19.779297 C 10.092699 19.779297 11.919531 20.02643 13.490234 19.830078 C 14.275586 19.731902 15.040506 19.514938 15.644531 18.964844 C 16.248557 18.41475 16.570312 17.559619 16.570312 16.585938 C 16.570313 15.131813 15.465357 13.960335 13.986328 13.066406 C 12.507299 12.172478 10.529198 11.560547 8.3339844 11.560547 z M 8.3339844 13.361328 C 10.18969 13.361328 11.88094 13.894872 13.056641 14.605469 C 14.232341 15.316065 14.769531 16.206362 14.769531 16.585938 C 14.769531 17.216756 14.631831 17.452275 14.433594 17.632812 C 14.235356 17.81335 13.855576 17.96922 13.265625 18.042969 C 12.085724 18.190467 10.24269 17.978516 8.3339844 17.978516 C 6.4252693 17.978516 4.5841838 18.190466 3.4042969 18.042969 C 2.8143534 17.96922 2.4345608 17.813348 2.2363281 17.632812 C 2.0380955 17.452277 1.9003906 17.216758 1.9003906 16.585938 C 1.9003906 16.206352 2.4375945 15.316063 3.6132812 14.605469 C 4.788968 13.894874 6.4782676 13.361328 8.3339844 13.361328 z "
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1;opacity:1" />
+</svg>

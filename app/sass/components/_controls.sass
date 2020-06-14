@@ -1,0 +1,30 @@
+.controls
+  display: flex
+  align-items: center
+  justify-content: center
+
+.controls__btn
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 45px
+  height: 45px
+  border-radius: 50%
+  border: 1px solid $color-light
+  cursor: pointer
+  transition: .2s
+  &:hover 
+    color: $color-main
+    border-color: $color-main
+
+.controls__pagination
+  margin: 0px 24px
+  color: $color-dark
+  font-family: $font-title
+  font-weight: 500
+
+.controls__current
+  font-size: 20px
+
+.controls__total
+  font-size: 14px

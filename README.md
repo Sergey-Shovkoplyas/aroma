@@ -1,4 +1,13 @@
-# Start template
+# aroma
+
+Developer: Sergey Shovkoplyas 
+- Skype: shovkoplyassergey_1
+- Telegram: @SergShovk
+- E-mail: shovkoplyassergey@gmail.com
+
+
+Pages
+- https://sergey-shovkoplyas.github.io/aroma/app/index.html
 
 Start template with (optional)
 - normalize.css

@@ -19,17 +19,16 @@ body
 
 body 
   min-width: 320px
-  font-family: "Arial", sans-serif
-  font-size: 18px
-  line-height: 1.2
+  font-family: $font-main
+  font-size: 14px
+  line-height: 1.3
+  color: $color-light
+  font-weight: 400
+  text-transform: capitalize
 
-.row 
-  display: flex
-  flex-wrap: wrap
-  margin: 0 -15px
-  
 .container
-  max-width: 1200px
+  // outline: 1px solid green
+  max-width: 1140px
   margin: 0 auto
   padding: 0 15px
   +media-lg
@@ -40,3 +39,19 @@ body
     max-width: 430px
   +media-xs
     width: auto
+
+h1, 
+h2, 
+h3 
+  margin: 0
+  font-family: $font-title
+  color: $color-dark
+  font-weight: 500
+
+a 
+  color: inherit
+  text-decoration: none
+
+i 
+  font-size: 18px
+

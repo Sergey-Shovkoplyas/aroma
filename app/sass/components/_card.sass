@@ -1,0 +1,89 @@
+.card
+  // outline: 1px solid black
+  position: relative
+  width: 350px
+  height: 535px
+  padding: 37px 25px 30px
+  overflow: hidden
+  transition: .2s
+  &:hover 
+    background-color: #fff
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.07)
+
+.card--small
+  width: 100%
+  padding: 37px 15px 15px
+  height: 495px
+  .card__img
+    height: 255px
+
+.card__img
+  height: 300px
+  transition: .2s
+  img 
+    width: 100%
+  a 
+    display: block
+  &:hover 
+    transform: scale(1.02)
+  
+.card__title
+  text-align: center
+  margin-bottom: 15px
+  a 
+    font-size: 25px
+    font-family: $font-title
+    font-weight: 700
+    color: $color-dark
+  &:hover 
+    a 
+      text-decoration: underline
+    
+
+.card__text
+  text-align: center
+  font-size: 14px 
+  line-height: 1.78
+  margin-bottom: 20px
+
+
+.card__bottom
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+
+.card__price
+  color: $color-dark 
+  font-family: $font-title
+  font-weight: 700
+
+.card__price-value
+  font-size: 25px
+
+.card__price-quantity
+  font-size: 14px
+
+.card__to-cart
+  color: $color-main
+  i 
+    display: block
+    transition: .2s
+  &:hover i 
+    transform: scale(1.1)
+
+.card__sticker 
+  position: absolute
+  top: 0
+  left: 25px
+  padding: 9px 15px
+  font-size: 12px
+  font-weight: 500
+  text-transform: uppercase
+  letter-spacing: 0.2em
+  &--green 
+    color: #7CCA63
+    background-color: rgba(124, 202, 99, 0.2)
+  &--red
+      color: #D7267B
+      background-color: rgba(170, 15, 89, 0.2)
