@@ -14,6 +14,7 @@ function styles () {
 	return src('app/sass/**/*.sass')
 	.pipe(sourceMaps.init())
 	.pipe(sass().on('error', notify.onError()))
+	.pipe(autoprefixer(['last 2 versions']))
 	.pipe(rename({ suffix: '.min'}))
 	.pipe(sourceMaps.write())
 	.pipe(dest('app/css'))

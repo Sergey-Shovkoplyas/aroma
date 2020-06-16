@@ -6,6 +6,9 @@
   margin-bottom: 15px
   &--center 
     text-align: center
+  +media-sm 
+    margin-bottom: 5px
+    font-size: 12px
 
 .home__subtitle
   font-size: 60px
@@ -13,6 +16,9 @@
   text-transform: capitalize
   &--center 
     text-align: center
+  +media-sm 
+    margin-bottom: 20px
+    font-size: 35px
 
 // ------------------ home__top-------------------
   
@@ -22,27 +28,50 @@
   background-image: url('../img/home-top-bg.jpg')
   background-repeat: no-repeat
   background-size: cover
+  +media-md 
+    padding: 100px 0px 200px
+  +media-770 
+    background-position: -715px center
+  +media-sm 
+    padding: 50px 0px 70px
+    background-position: -225px center
 
 .home__top-title
   font-size: 80px
   margin-bottom: 30px
+  position: sticky
+  top: 0
   .mark 
     color: $color-main
+  +media-sm 
+    font-size: 40px
+    margin-bottom: 15px
 
 .home__top-text
   max-width: 450px
   font-size: 20px 
   line-height: 1.5
   margin-bottom: 50px
+  +media-sm 
+    font-size: 16px
+    margin-bottom: 25px
+    text-align: justify
 
 .home__top-btn
-  width: 220px
+  width: 220px  
 
 
 // ------------------ home__recommend -------------------
 
 .home__recommend
   margin: 100px 0px 80px
+  +media-sm 
+    margin: 70px 0px  100px
+  +media-374
+    .card 
+      height: auto
+    .card__img
+      height: 220px
 
 .home__recommend-wrap
   position: relative
@@ -51,9 +80,13 @@
 .home__recommend-slider
   .slick-list
     padding: 35px
+  +media-sm 
+    .slick-list
+      padding: 0px
 
 .home__recommend-item
-  margin-left: 10px
+  margin: 0 10px
+  outline: 5px solid red
 
 
 .home__recommend-controls
@@ -61,42 +94,81 @@
   bottom: 0
   left: 50%
   transform: translate(-50%, 0)
+  +media-sm
+    bottom: -20px
+  +media-374
+    bottom: 0
 
 
 // ------------------ home__about -------------------
 
 .home__about
   margin-bottom: 80px
+  +media-sm 
+    margin-bottom: 50px
 
 .home__about-wrap
   position: relative
   padding-top: 140px
   padding-bottom: 180px
   padding-left: 570px
+  +media-lg 
+    padding-left: 480px
+  +media-md
+    padding-left: 340px
+    padding-top: 100px
+    padding-bottom: 140px
+  +media-sm 
+    padding: 0
 
 .home__about-img
+  width: 850px
   position: absolute
+  z-index: -1
   left: -320px
   top: 0
+  img 
+    width: 100%
+  +media-1600 
+    left: -210px
+  +media-md 
+    width: 650px 
+    top: 90px
+  +media-sm 
+    position: static
+    width: 290px
+    margin: 0 auto 
+    margin-top: 20px
+    
 
 
 .home__about-title
   margin-bottom: 40px
+  +media-sm 
+    margin-bottom: 20px
 
 .home__about-text
   max-width: 450px
   font-size: 20px 
   line-height: 1.5
   margin-bottom: 50px
+  +media-sm 
+    font-size: 16px
+    margin-bottom: 25px
+    text-align: justify
 
 .home__about-btn
   width: 220px
+  +media-sm 
+    margin: 0 auto
 
 
 // ------------------ home__features -------------------
 
 .home__features
   margin-bottom: 150px
+  +media-sm 
+    margin-bottom: 70px
 
 .home__features-wrap
   position: relative
@@ -104,6 +176,14 @@
   padding-top: 55px
   padding-right: 100px
   padding-bottom: 45px
+  +media-lg 
+    padding-right: 20px
+  +media-md 
+    padding: 40px
+  +media-sm
+    padding: 15px
+    margin: 0 -15px
+  
 
 
 .home__features-row
@@ -111,10 +191,16 @@
   display: flex
   flex-wrap: wrap
   margin-left: auto
+  +media-md 
+    width: 100%
+    max-width: 100%
 
 .home__features-item
   width: 50%
   padding: 15px
+  +media-sm 
+    width: 100%
+    text-align: center
 
 .home__features-icon
   display: flex
@@ -128,6 +214,9 @@
   i 
     font-size: 30px
     color: $color-main
+  +media-sm
+    margin: 0 auto
+    margin-bottom: 15px
 
 .home__features-subtitle
   font-size: 20px
@@ -147,33 +236,97 @@
   width: 580px 
   img 
     width: 100%
+  +media-md 
+    position: static
+    width: 360px
+    margin: 0 auto
+  +media-sm 
+    width: 200px
 
 
 // ------------------ home__articles -------------------
 
 .home__articles 
   margin-bottom: 150px
+  +media-lg 
+    .article__title
+      font-size: 23px
+    .article.article--full .article__title
+      font-size: 40px
+    .article
+      min-height: 390px
+    .article__img
+      height: 190px
+    .article__text
+      padding-right: 0
+  +media-md 
+    .article__img
+      height: 140px
+  +media-sm 
+    margin-bottom: 70px
+    .article
+      min-height: 295px
+      max-width: 260px
+      margin: 0 auto 
+      margin-bottom: 20px
+    .article__title
+      font-size: 21px
+      margin-bottom: 10px
+    .article__img
+      margin-bottom: 10px
+
+
 
 .home__articles-row
   display: flex
   margin: 0 -15px
+  +media-md 
+    margin: 0 -7
+  +media-sm 
+    flex-wrap: wrap
+    justify-content: center
 
 .home__articles-item
   width: 33.33%
   padding: 0 15px
+  +media-md 
+    padding: 0 7px
+  +media-sm 
+    width: 100%
 
 // ------------------ home__popular -------------------
 
 .home__popular
   margin-bottom: 80px
+  +media-lg
+    .card__img 
+      height: 235px
+  +media-md 
+    .card__img 
+      height: 255px
+    .card--small
+      width: 290px
+      margin: 0 auto
+  +media-sm 
+    margin-bottom: 70px
+
 
 .home__popular-row
   display: flex
   margin: 0 -15px
   margin-bottom: 75px
+  +media-md 
+    flex-wrap: wrap
+  +media-sm 
+    margin-bottom: 25px
 
 .home__popular-item
   width: 25%
+  +media-md 
+    width: 50%
+    margin-bottom: 25px
+  +media-sm 
+    width: 100%
 
 .home__popular-btn
   width: 220px
