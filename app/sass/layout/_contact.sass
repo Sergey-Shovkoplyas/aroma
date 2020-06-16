@@ -1,0 +1,60 @@
+.contact
+  position: relative
+  padding: 150px 0px
+  margin-bottom: 50px
+  &::after 
+    content: ''
+    position: absolute
+    z-index: -1
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: #F0F4F3 url('../img/contact-bg.jpg') no-repeat center
+  +media-md 
+    &::after 
+      background-position: -1120px center
+      opacity: .3
+  +media-sm 
+    padding: 50px 0px
+    margin-bottom: 50px
+
+.contact__title
+  font-size: 60px
+  margin-bottom: 40px
+  &--center 
+    text-align: center
+  +media-sm 
+    margin-bottom: 20px
+    font-size: 35px
+
+.contact__form
+  max-width: 730px
+
+.contact__form-row
+  display: flex
+  flex-wrap: wrap
+  margin: -15px
+  margin-bottom: 15px
+  +media-sm 
+    margin: -7px
+    margin-bottom: 7px
+
+.contact__form-item
+  width: 50%
+  padding: 15px
+  +media-sm 
+    width: 100%
+    padding: 7px
+
+.contact__form-message
+  margin-bottom: 30px
+  +media-sm 
+    margin-bottom: 20px
+
+
+.contact__form-btn
+  width: 220px
+  margin-left: auto
+  +media-sm 
+    margin-right: auto

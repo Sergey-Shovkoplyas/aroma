@@ -8,6 +8,7 @@ Developer: Sergey Shovkoplyas
 
 Pages
 - https://sergey-shovkoplyas.github.io/aroma/app/index.html
+- https://sergey-shovkoplyas.github.io/aroma/app/blob.html
 
 Start template with (optional)
 - normalize.css
