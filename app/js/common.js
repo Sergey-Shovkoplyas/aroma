@@ -47,4 +47,11 @@ $( document ).ready(function() {
 		$(this).next('.footer__item-list').slideToggle();
 	});
 
+	// ----------------------filter toggle ---------------------------
+
+	$('.category__filter-btn').on('click', function () {
+		$(this).toggleClass('active');
+		$('.category__left').slideToggle();
+	});
+
 });

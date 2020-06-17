@@ -1,0 +1,143 @@
+.about__top
+  padding-bottom: 390px
+  margin-bottom: 100px
+  +media-md 
+    padding-bottom: 120px
+  +media-sm 
+    padding-bottom: 0
+    margin-bottom: 50px
+
+.about__top-container
+  +media-sm 
+    display: flex
+    flex-direction: column
+
+.about__top-img
+  position: absolute
+  z-index: -1
+  transform: translate(-410px, 0)
+  img 
+    width: 100%
+  +media-sm 
+    order: 2
+    position: static
+    transform: translate(0, 0)
+  
+.about__top-block
+  width: 590px
+  padding: 70px
+  transform: translateY(30px)
+  margin-left: auto
+  background-color: #fff
+  p 
+    font-size: 20px
+    line-height: 1.5
+  +media-lg 
+    width: 460px
+    padding: 40px
+  +media-sm 
+    padding: 0
+    width: 100% 
+    transform: translate(0, 0)
+    margin-bottom: 10px
+    text-align: justify
+    p
+      font-size: 16px
+
+.about__title
+  font-size: 60px 
+  font-weight: 700
+  margin-bottom: 30px
+  &.center 
+    text-align: center
+  +media-sm 
+    font-size: 40px
+    margin-bottom: 15px
+  
+
+.about__mission
+  margin-bottom: 150px
+  margin-bottom: 30px
+
+.about__subtitle
+  font-size: 20px
+  line-height: 1.5
+  text-align: center
+  margin-bottom: 85px
+  +media-sm 
+    font-size: 16px
+    text-align: justify
+    margin-bottom: 30px
+  
+
+.about__mission-row
+  position: relative
+  display: flex
+  +media-sm
+    flex-direction: column
+    align-items: center
+
+.about__mission-item-left
+  width: 255px 
+  margin-right: 30px
+  text-align: center
+  +media-sm 
+    margin-right: 0
+    margin-bottom: 20px
+
+.about__mission-img-left,
+.about__mission-img-right
+  margin-bottom: 20px
+  img 
+    width: 100%
+  +media-sm 
+    margin-bottom: 5px
+
+.about__mission-name
+  font-size: 25px 
+  font-weight: 700 
+  font-family: $font-title
+  margin-bottom: 5px
+  color: $color-dark
+
+.about__mission-text
+  // outline: 1px solid red
+  position: absolute
+  bottom: 60px
+  right: 0
+  width: 350px
+  padding: 40px
+  background-color: #fff
+  line-height: 2.14
+  &::before
+    position: absolute
+    content: '\e911'
+    font-size: 30px
+    font-family: 'icomoon'
+    color: #fff
+    display: flex
+    justify-content: center
+    align-items: center
+    top: -30px
+    left: -30px
+    width: 65px 
+    height: 65px
+    border-radius: 50%
+    background-color: $color-main
+  +media-md 
+    padding: 30px
+    width: 280px
+  +media-sm 
+    position: relative
+    bottom: auto
+    right: auto
+    width: 100%
+    padding: 20px
+    text-align: justify
+    margin-top: 50px
+    &::before
+      left: 50%
+      top: -50px
+      transform: translateX(-50%) scale(.7)
+
+
