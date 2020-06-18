@@ -61,6 +61,43 @@
       content: '\e905'
       color: $color-main
 
+.form__radio
+  input 
+    display: none
+  label 
+    position: relative
+    display: inline-block
+    vertical-align: middle
+    padding-left: 35px
+    cursor: pointer
+    font-weight: 500
+    &::before 
+      content: ''
+      position: absolute
+      top: -2px
+      left: 0
+      width: 20px
+      height: 20px
+      border: 1px solid #E1E1E1
+      border-radius: 50%
+    &::after
+      content: ''
+      position: absolute
+      transform: scale(0)
+      top: 3px
+      left: 5px
+      width: 10px
+      height: 10px
+      border-radius: 50%
+      background-color: $color-main
+      transition: .2s
+    &:hover 
+      color: #000
+  input:checked + label 
+    &::after 
+      transform: scale(1)
+      
+
 
   
   

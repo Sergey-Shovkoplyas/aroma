@@ -14,6 +14,10 @@ Pages
 - https://sergey-shovkoplyas.github.io/aroma/app/404.html
 - https://sergey-shovkoplyas.github.io/aroma/app/contacte-us.html
 - https://sergey-shovkoplyas.github.io/aroma/app/category.html
+- 
+- https://sergey-shovkoplyas.github.io/aroma/app/register-pay.html
+- https://sergey-shovkoplyas.github.io/aroma/app/register-final.html
+- https://sergey-shovkoplyas.github.io/aroma/app/register-check.html
 
 Start template with (optional)
 - normalize.css

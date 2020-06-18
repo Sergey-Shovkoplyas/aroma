@@ -1,0 +1,167 @@
+.register
+  margin-bottom: 200px
+  +media-md
+    margin-bottom: 100px
+  +media-sm 
+    margin-bottom: 50px
+
+.register-check
+  margin-top: 55px
+  +media-sm 
+    margin-top: 30px
+  
+.register__title
+  font-size: 25px
+  font-weight: 700
+  margin-bottom: 30px
+  &.no-margin
+    margin: 5px
+  +media-sm 
+    margin-bottom: 20px
+
+.register__title--edit
+  display: flex
+  justify-content: space-between
+  align-items: center
+  max-width: 350px
+  
+
+.register__item
+  margin-bottom: 50px
+  &.margin-small
+    margin-bottom: 35px
+  +media-sm 
+    margin-bottom: 30px
+    &.margin-small
+      margin-bottom: 25px
+  
+
+.register__item--price
+  max-width: 540px
+.register__item--radio
+  max-width: 350px
+  
+
+
+.register__form
+  max-width: 730px
+
+.register__form-row
+  display: flex
+  flex-wrap: wrap
+  margin: 0 -15px
+
+.register__form-item
+  width: 50%
+  padding: 0 15px
+  margin-bottom: 60px
+  +media-sm
+    width: 100%
+    margin-bottom: 15px
+
+.register__form-item--row
+  display: flex
+  flex-wrap: wrap
+ 
+.register__form-item-col
+  width: 50%
+  &:first-child
+    padding-right: 30px
+  +media-sm 
+    &:first-child
+      padding-right: 15px 
+
+
+
+.register__price
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 25px 0px
+  border-top: 1px solid #E5E5E5
+  &:last-child 
+    border-bottom: 1px solid #E5E5E5
+  +media-sm 
+    padding: 15px 0
+
+.register__price--hide
+  display: none
+
+.register__price--final
+  border: none
+  padding: 10px 0px
+  &:last-child 
+    border: none
+
+.register__price-text
+  font-size: 16px
+  font-weight: 500
+  span 
+    text-transform: none
+    margin-left: 15px
+  +media-sm 
+    font-size: 15px
+    
+
+.register__price-value
+  font-family: $font-title
+  color: $color-dark
+  font-size: 25px 
+  font-weight: 700
+  min-width: 60px
+  +media-sm 
+    font-size: 20px
+    margin-left: 20px
+    
+.register__total
+  max-width: 895px
+  position: relative
+  +media-sm 
+    .total
+      margin: 0 auto
+
+.register__total-img
+  position: absolute
+  width: 355px
+  top: 0
+  right: 0
+  img 
+    width: 100%
+  +media-sm 
+    position: static
+    width: 290px
+    margin: 0 auto
+    margin-top: 30px
+
+
+// ----------------- NEW Page register-final ------------------
+
+
+.register__final
+  max-width: 350px
+
+.register__final-item
+  display: flex
+  justify-content: space-between
+  margin-bottom: 20px
+
+.register__final-name
+  font-size: 12px
+  font-weight: 500
+
+.register__final-value
+  max-width: 190px
+  margin-left: 20px
+  font-size: 14px
+  font-weight: 500
+  color: #000
+  text-align: right
+  line-height: 1.14
+
+.register__radio-edit,
+.register__final-edit
+  font-family: $font-main
+  color: #7CCA63
+  font-size: 16px 
+  font-weight: 500
+  cursor: pointer
