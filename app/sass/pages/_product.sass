@@ -1,0 +1,130 @@
+.product__top
+  margin-top: 90px
+  margin-bottom: 130px
+  
+.product__top-row
+  display: flex
+  justify-content: space-between
+  margin: 0 -15px
+  flex-wrap: wrap
+
+.product__top-col
+  width: 50%
+  outline: 1px solid red
+  padding: 0 15px
+  +media-md 
+    width: 100%
+    max-width: 540px
+    margin: 0 auto
+
+
+.product__bage
+  display: inline-block
+  padding: 10px 20px 
+  letter-spacing: 0.2em
+  text-transform: uppercase
+  font-weight: 500
+  margin-bottom: 23px
+.product__bage--red
+  color: #D7267B
+  background-color: rgba(170, 15, 89, 0.2)
+.product__bage--green
+  color: #7CCA63
+  background-color: rgba(124, 202, 99, 0.2)
+  
+.product__title
+  font-size: 60px 
+  font-weight: 700
+  margin-bottom: 23px
+
+.product__subtitle
+  max-width: 350px
+  line-height: 1.786
+  margin-bottom: 55px
+
+.product__order
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 65px
+
+.product__price
+  font-family: $font-title
+  color: $color-dark
+  font-size: 25px
+  min-width: 72px
+
+.product__quantity
+  width: 160px
+
+.product__btn
+  width: 220px
+  .button 
+    i,span
+      vertical-align: center
+      line-height: 20px
+    i 
+      margin-right: 5px
+  +media-lg
+    width: 190px
+
+
+.product__delivery
+  padding: 20px 30px
+  color: #7CCA63
+  background-color: rgba(124, 202, 99, 0.2)
+  font-size: 20px
+  margin-bottom: 30px
+  i 
+    margin-right: 30px
+
+.product__box
+  padding: 20px 30px
+  color: #D7267B
+  background-color: rgba(170, 15, 89, 0.2)
+  font-size: 20px
+  i 
+    margin-right: 30px
+
+// ------------------- product__guide----------------------
+
+.product__guide
+  outline: 1px solid red
+  margin-bottom: 180px
+
+.product__guide-wrap
+  position: relative
+
+.product__guide-img
+  width: 730px
+  position: absolute
+  right: -190px
+  top: -130px
+  img 
+    width: 100%
+  +media-md 
+    width: 600px 
+    right: -160px
+    top: -60px
+
+.product__guide-title
+  font-size: 60px 
+  font-weight: 700
+  margin-bottom: 85px
+
+.product__guide-item
+  color: $color-dark 
+  font-family: $font-title
+  font-size: 25px
+  font-weight: 700
+  margin-bottom: 80px
+  i 
+    display: inline-block
+    width: 40px
+    margin-right: 15px
+    font-size: 25px
+    vertical-align: middle
+  .icon-portion
+    font-size: 30px
+  span 
+    vertical-align: middle

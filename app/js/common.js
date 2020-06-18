@@ -54,4 +54,23 @@ $( document ).ready(function() {
 		$('.category__left').slideToggle();
 	});
 
+	// -------------------- quantity --------------------------
+
+	$('.quantity__bnt--minus').on('click', function () {
+		let $input = $(this).next('.quantity__input');
+		let inputValue = $input.val();
+		if (inputValue > 0) {
+			inputValue--;
+			$input.val(inputValue)
+		}
+	});
+
+	$('.quantity__bnt--plus').on('click', function () {
+		let $input = $(this).prev('.quantity__input');
+		let inputValue = $input.val();
+		inputValue++;
+		$input.val(inputValue);
+
+	});
+
 });

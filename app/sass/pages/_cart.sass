@@ -1,0 +1,193 @@
+// ------------ cart__item ---------------
+.cart__item-mobile-titles
+  display: none
+  font-size: 12px
+  margin-bottom: 10px
+  span:nth-child(1)
+    width: 90px
+  span 
+    width: 50px
+  .empty 
+    width: 14px
+  +media-sm 
+    display: flex 
+    justify-content: space-between
+
+// -------------- .cart__titles -----------------
+
+.cart__titles
+  display: flex
+  justify-content: space-between
+  span 
+    width: 75px
+    text-align: center
+  .cart__titles-quantity
+    width: 160px
+    text-align: left
+  .cart__titles-empty
+    width: 14px
+  +media-md 
+    .cart__titles-quantity
+      width: 120px
+      text-align: center
+  +media-sm 
+    display: none
+
+.cart__titles-left
+  width: 330px 
+  +media-md 
+    width: 270px
+
+.cart__titles-right
+  width: 730px  
+  display: flex
+  justify-content: space-between
+  +media-lg 
+    width: 560px
+  +media-md
+    width: 400px
+
+// -------------- .cart__item -----------------
+
+.cart__item
+  display: flex
+  justify-content: space-between
+  padding: 20px 0px 
+  border-bottom: 1px solid #E5E5E5
+  +media-sm 
+    flex-direction: column
+
+.cart__item-left
+  width: 330px 
+  display: flex 
+  align-items: center
+  flex-shrink: 0
+  margin-right: 20px
+  +media-md 
+    width: 270px
+  +media-sm 
+    width: 100%
+    margin-right: 0
+    margin-bottom: 15px
+
+.cart__item-img
+  flex-shrink: 0
+  margin-right: 20px
+  width: 100px
+  height: 100px
+  overflow: hidden
+  img 
+    width: 100%
+  a 
+    display: block
+  +media-lg 
+    margin-right: 15px
+
+.cart__item-name
+  a
+    display: block
+    font-family: $font-title
+    font-size: 25px
+    line-height: 1.16
+    font-weight: 700
+    color: $color-dark
+  a:hover 
+    text-decoration: underline
+  +media-md 
+    a 
+      font-size: 20px
+
+
+
+
+.cart__item-right
+  width: 730px  
+  display: flex
+  justify-content: space-between
+  align-items: center
+  +media-lg 
+    width: 560px
+  +media-sm 
+    width: 100%
+
+.cart__item-quantity
+  width: 160px
+  .quantity 
+    padding: 10px
+    height: 45px
+  .quantity__input
+    max-width: 50px
+    font-size: 20px
+  +media-md
+    width: 120px
+  +media-sm 
+    width: 90px
+    .quantity 
+      padding: 5px
+      height: 40px
+    .quantity__input
+      font-size: 16px
+      max-width: 40px
+    .quantity__bnt i
+      font-size: 14px
+
+.cart__item-um,
+.cart__item-subtotal,
+.cart__item-total
+  width: 75px
+  text-align: center
+  +media-sm
+    width: 50px
+
+.cart__item-subtotal,
+.cart__item-total
+  font-family: $font-title
+  font-size: 25px
+  line-height: 1.16
+  font-weight: 700
+  color: $color-dark
+  +media-md 
+    font-size: 20px
+  +media-sm
+    font-size: 17px
+
+.cart__item-um 
+  +media-sm
+    font-size: 13px
+
+.cart__item-remove
+  cursor: pointer
+  i 
+    font-size: 14px
+
+
+// ----------------- cart__bottom --------------------
+
+.cart__bottom-row
+  display: flex
+  justify-content: flex-end
+  margin-top: 40px
+  margin-bottom: 50px
+  .total
+    width: 255px
+  +media-md 
+    justify-content: center
+  +media-sm 
+    flex-direction: column
+    .total 
+      margin: 0 auto
+
+.cart__total-delivery
+  margin-right: 35px
+  border: none
+  .total__selected
+    max-height: 42px
+    display: flex
+    align-items: center
+    i
+      margin-right: 15px
+
+.cart__total-info
+  text-transform: none
+  padding-top: 4px
+  padding-bottom: 5px
