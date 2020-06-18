@@ -21,6 +21,7 @@ Pages
 - 
 - https://sergey-shovkoplyas.github.io/aroma/app/cart.html
 - https://sergey-shovkoplyas.github.io/aroma/app/product.html
+- https://sergey-shovkoplyas.github.io/aroma/app/user.html
 
 Start template with (optional)
 - normalize.css

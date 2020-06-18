@@ -73,4 +73,11 @@ $( document ).ready(function() {
 
 	});
 
+	// -------------------- sidebar-bottom toggle --------------------------
+
+	$('.user__sidebar-btn').on('click', function () {
+		$(this).toggleClass('active');
+		$('.user__sidebar-bottom').slideToggle();
+	});
+
 });

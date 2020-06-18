@@ -1,6 +1,8 @@
 .product__top
   margin-top: 90px
   margin-bottom: 130px
+  +media-sm 
+    margin: 50px 0px 70px
   
 .product__top-row
   display: flex
@@ -10,7 +12,7 @@
 
 .product__top-col
   width: 50%
-  outline: 1px solid red
+  // outline: 1px solid red
   padding: 0 15px
   +media-md 
     width: 100%
@@ -25,6 +27,9 @@
   text-transform: uppercase
   font-weight: 500
   margin-bottom: 23px
+  +media-sm 
+    font-size: 12px
+    margin-bottom: 15px
 .product__bage--red
   color: #D7267B
   background-color: rgba(170, 15, 89, 0.2)
@@ -36,17 +41,25 @@
   font-size: 60px 
   font-weight: 700
   margin-bottom: 23px
+  +media-sm 
+    font-size: 40px
+    margin-bottom: 15px
 
 .product__subtitle
   max-width: 350px
   line-height: 1.786
   margin-bottom: 55px
+  +media-sm 
+    margin-bottom: 30px
 
 .product__order
   display: flex
   justify-content: space-between
   align-items: center
   margin-bottom: 65px
+  +media-sm
+    flex-wrap: wrap
+    margin-bottom: 40px
 
 .product__price
   font-family: $font-title
@@ -56,10 +69,16 @@
 
 .product__quantity
   width: 160px
+  +media-sm 
+    .quantity
+      height: 45px
+    .quantity__input
+      font-size: 20px
 
 .product__btn
   width: 220px
   .button 
+    padding: 14px 30px
     i,span
       vertical-align: center
       line-height: 20px
@@ -67,6 +86,9 @@
       margin-right: 5px
   +media-lg
     width: 190px
+  +media-sm 
+    margin: 0 auto
+    margin-top: 15px
 
 
 .product__delivery
@@ -77,6 +99,12 @@
   margin-bottom: 30px
   i 
     margin-right: 30px
+  +media-sm 
+    padding: 15px
+    margin-bottom: 15px
+    font-size: 16px
+    i 
+      margin-right: 20px
 
 .product__box
   padding: 20px 30px
@@ -85,12 +113,29 @@
   font-size: 20px
   i 
     margin-right: 30px
+  +media-sm 
+    padding: 15px
+    margin-bottom: 15px
+    font-size: 16px
+    i 
+      margin-right: 20px
+
+// ----------------- product-slider ------------------
+
+.product-slider
+  // outline: 1px solid green
+
+.product-slider__main
+  img 
+    width: 100%
+  
 
 // ------------------- product__guide----------------------
 
 .product__guide
-  outline: 1px solid red
   margin-bottom: 180px
+  +media-sm 
+    margin-bottom: 70px
 
 .product__guide-wrap
   position: relative
@@ -99,18 +144,28 @@
   width: 730px
   position: absolute
   right: -190px
-  top: -130px
+  top: -80px
   img 
     width: 100%
   +media-md 
     width: 600px 
     right: -160px
     top: -60px
+  +media-sm 
+    // display: none
+    z-index: -1
+    width: 400px 
+    right: -95px
+    top: -30px
+    opacity: .5
 
 .product__guide-title
   font-size: 60px 
   font-weight: 700
   margin-bottom: 85px
+  +media-sm
+    font-size: 40px
+    margin-bottom: 40px
 
 .product__guide-item
   color: $color-dark 
@@ -128,3 +183,6 @@
     font-size: 30px
   span 
     vertical-align: middle
+  +media-sm 
+    margin-bottom: 30px
+    font-size: 22px
