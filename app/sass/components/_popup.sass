@@ -1,0 +1,138 @@
+.popup
+  position: fixed
+  z-index: 500
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+
+.popup__overlay
+  position: absolute
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  background: rgba(0, 0, 0, 0.4)
+  cursor: pointer
+
+.popup__content
+  position: relative
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+  background: #fff
+
+.pupup__close
+  position: absolute
+  top: 20px
+  right: 20px
+  cursor: pointer
+  +media-sm 
+    top: 10px
+    right: 10px
+
+
+// --------------------- popup-registr ------------------------
+
+.popup-registr
+  .popup__content
+    max-width: 730px
+    padding: 50px 90px
+  +media-1600
+    .popup__content 
+      width: 600px
+      padding: 40px 40px
+  +media-sm 
+    .popup__content 
+      width: 290px
+      padding: 15px
+    .form__text
+      padding: 10px
+    .form__sublabel
+      margin-bottom: 5px
+
+.popup-registr__title
+  font-family: $font-title 
+  font-size: 60px
+  font-weight: 700
+  color: $color-dark
+  text-align: center
+  margin-bottom: 10px
+  +media-sm 
+    font-size: 40px
+    margin-bottom: 5px
+
+.popup-registr__subtitle
+  text-align: center
+  margin-bottom: 60px
+  a 
+    text-decoration: underline
+    color: $color-main
+  +media-1600 
+    margin-bottom: 30px
+
+.popup-registr__form-item
+  margin-bottom: 40px
+  +media-1600 
+    margin-bottom: 15px
+  +media-sm
+    margin-bottom: 10px
+
+.popup-registr__form-btn
+  width: 220px
+  margin: 0 auto
+  margin-top: 30px
+  +media-sm 
+    margin-top: 15px
+    width: 100%
+
+// --------------------- popup-success ------------------------
+
+.popup-success 
+  .popup__content
+    max-width: 730px
+    padding: 80px
+  +media-md 
+    .popup__content
+      max-width: 600px 
+      padding: 40px 
+  +media-sm
+    .popup__content
+      max-width: 290px 
+      padding: 20px 
+      padding-bottom: 30px
+
+.popup-success__content
+  text-align: center
+
+.popup-success__img
+  width: 260px
+  margin: 0 auto
+  margin-bottom: 70px
+  img 
+    width: 100%
+  +media-sm 
+    width: 150px
+    margin-bottom: 30px
+
+.popup-success__title
+  font-family: $font-title 
+  font-size: 60px
+  font-weight: 700
+  color: $color-dark
+  text-align: center
+  margin-bottom: 30px
+  +media-sm 
+    font-size: 35px
+    margin-bottom: 20px
+
+.popup-success__subtitle
+  font-size: 20px
+  margin-bottom: 50px
+  +media-sm 
+    font-size: 16px 
+    margin-bottom: 30px
+
+.popup-success__btn
+  width: 220px
+  margin: 0 auto

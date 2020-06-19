@@ -41,7 +41,10 @@
 						</a>
 					</div>
 					<div class="header-top__right">
-						<a href="#" class="header-top__cart"><i class="icon-cart"></i></a>
+						<a href="#" class="header-top__cart">
+							<i class="icon-cart"></i>
+							<span class="header-top__cart-value">1</span>
+						</a>
 						<a href="#" class="header-top__personal"><i class="icon-personal"></i></a>
 						<ul class="header-top__language">
 							<li class="active"><a>RO</a></li>
@@ -551,6 +554,59 @@
 			</div>
 		</div>
 	</footer>
+
+	<div class="popup popup-registr">
+		<div class="popup__overlay"></div>
+		<div class="popup__content">
+			<div class="pupup__close"><i class="icon-close"></i></div>
+			<div class="popup-registr__content">
+				<div class="popup-registr__title">Registration</div>
+				<div class="popup-registr__subtitle">Have an account? <a href="#">login</a></div>
+				<form action="" class="popup-registr__form">
+
+					<div class="popup-registr__form-item">
+						<label class="form__label">
+							<div class="form__sublabel"><span class="mark">*</span>Nume/Prenume</div>
+							<input class="form__text" type="text" required>
+						</label>
+					</div>
+
+					<div class="popup-registr__form-item">
+						<label class="form__label">
+							<div class="form__sublabel"><span class="mark">*</span>Telefon</div>
+							<input class="form__text" type="text" required>
+						</label>
+					</div>
+
+					<div class="popup-registr__form-item">
+						<label class="form__label">
+							<div class="form__sublabel"><span class="mark">*</span>E-mail</div>
+							<input class="form__text" type="text" required>
+						</label>
+					</div>
+
+					<div class="popup-registr__form-item">
+						<label class="form__label">
+							<div class="form__sublabel"><span class="mark">*</span>Password</div>
+							<input class="form__text" type="text" required>
+						</label>
+					</div>
+
+					<div class="popup-registr__form-item">
+						<label class="form__label">
+							<div class="form__sublabel"><span class="mark">*</span>Password</div>
+							<input class="form__text" type="text" required>
+						</label>
+					</div>
+
+					<div class="popup-registr__form-btn">
+						<button class="button" type="submit">Registreaza</button>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
 
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/slick.min.js"></script>

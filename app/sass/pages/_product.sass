@@ -1,8 +1,8 @@
 .product__top
   margin-top: 90px
   margin-bottom: 130px
-  +media-sm 
-    margin: 50px 0px 70px
+  +media-md 
+    margin: 30px 0px 70px
   
 .product__top-row
   display: flex
@@ -124,10 +124,38 @@
 
 .product-slider
   // outline: 1px solid green
+  +media-md 
+    margin-bottom: 30px
+  +media-sm 
+    width: 290px
+    margin: 0 auto
+    margin-bottom: 30px
 
 .product-slider__main
   img 
-    width: 100%
+    display: block
+    width: 540px 
+    height: 540px
+  +media-lg 
+    img 
+      width: 450px 
+      height: 450px
+  +media-md
+    img 
+      width: 510px 
+      height: 510px
+  +media-sm
+    img 
+      width: 290px 
+      height: 290px
+
+.product-slider__preview
+  // outline: 1px solid red
+  img
+    display: block
+    width: 100px 
+    height: 100px
+    cursor: pointer
   
 
 // ------------------- product__guide----------------------

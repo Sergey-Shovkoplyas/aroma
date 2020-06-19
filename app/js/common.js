@@ -80,4 +80,32 @@ $( document ).ready(function() {
 		$('.user__sidebar-bottom').slideToggle();
 	});
 
+	// -------------------- poput clode --------------------------
+
+	$('.popup__overlay, .pupup__close').on('click', function () {
+		$(this).parents('.popup').fadeOut();
+	});
+
+	// -------------------------product-slider----------------------
+
+	$('.product-slider__main').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		asNavFor: '.product-slider__preview'
+	});
+
+	$('.product-slider__preview').slick({
+		arrows: false,
+		infinite: false,
+		variableWidth: true,
+		slidesToScroll: 5,
+		slidesToShow: 5,
+		focusOnSelect: true,
+		asNavFor: '.product-slider__main'
+	});
+
+	
+
 });

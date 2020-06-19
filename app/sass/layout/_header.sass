@@ -45,12 +45,28 @@
     font-weight: 400
 
 .header-top__cart
+  position: relative
   margin-right: 35px
   vertical-align: middle
   +media-md 
     margin-right: 25px
   +media-sm
     margin-right: 15px
+
+.header-top__cart-value
+  position: absolute
+  bottom: -5px
+  right: -2px
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 14px 
+  height: 14px
+  border-radius: 50%
+  border: 1px solid #ffffff
+  background-color: $color-main
+  font-size: 12px 
+  font-weight: 500
 
 .header-top__personal
   margin-right: 38px

@@ -246,3 +246,146 @@
 .user__information-value
   font-weight: 500
   color: #000
+
+// -------------------NEW Page user-order ------------------------
+
+.user-order__row
+  display: flex
+  justify-content: space-between
+  // outline: 1px solid green
+  +media-sm 
+    flex-direction: column
+    margin-bottom: 30px
+
+.user-order__left
+  width: 100%
+  margin-right: 30px
+  +media-sm
+    margin-left: 0
+    margin-bottom: 20px
+
+.user-order__right
+  .total
+    width: 255px
+  .total__item:last-child 
+    margin-bottom: 0
+  +media-md 
+    .total 
+      width: 235px
+  +media-sm 
+    .total 
+      margin: 0 auto
+    .total__item-value
+      font-size: 22px
+
+// -------------- .user-order__product -----------------
+
+.user-order__product
+  display: flex
+  justify-content: space-between
+  width: 100%
+  margin-bottom: 15px
+  // outline: 3px solid red 
+  +media-md 
+    flex-direction: column
+  +media-sm 
+    width: 230px
+    margin: 0 auto
+
+.user-order__product-left
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.user-order__product-img
+  width: 100px
+  height: 100px
+  margin-right: 20px
+  img 
+    width: 100%
+
+.user-order__product-name
+  font-family: $font-title
+  font-size: 25px
+  color: $color-dark
+  font-weight: 700
+  +media-sm 
+    font-size: 22px
+
+.user-order__product-right
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: 230px
+  padding-left: 20px
+
+.user-order__product-price
+  font-family: $font-title
+  font-size: 25px
+  color: $color-dark
+  font-weight: 700
+  +media-sm 
+    font-size: 22px
+
+// -------------- user-order__infoblock -----------------
+
+.user-order__infoblock
+  max-width: 350px
+  margin-bottom: 80px
+  +media-sm 
+    margin-bottom: 30px
+
+.user-order__infoblock-title
+  font-family: $font-title
+  font-size: 25px
+  color: $color-dark
+  font-weight: 700
+  margin-bottom: 30px
+  +media-sm 
+    font-size: 22px 
+    margin-bottom: 15px
+    .user__information-item
+      margin-bottom: 15px
+
+
+// -------------------NEW Page user-personal ------------------------
+
+.user-personal
+  max-width: 730px
+  +media-sm 
+    margin-bottom: 50px
+
+.user-personal__title
+  font-family: $font-title
+  font-size: 25px
+  color: $color-dark
+  font-weight: 700
+  margin-bottom: 40px
+  +media-sm 
+    font-size: 23px
+    margin-bottom: 30px
+
+.user-personal__form-row
+  display: flex
+  flex-wrap: wrap
+  margin: 0 -15px
+  +media-md 
+    margin: 0 -7px
+
+.user-personal__form-item
+  width: 50%
+  padding: 0 15px
+  margin-bottom: 50px
+  +media-md 
+    padding: 0 7px
+    margin-bottom: 30px
+  +media-sm 
+    width: 100%
+    margin-bottom: 15px
+
+.user-personal__btn
+  width: 220px
+  margin-left: auto
+  +media-sm 
+    margin: 0 auto
+    margin-top: 30px
