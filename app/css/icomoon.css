@@ -46,16 +46,16 @@
 .icon-close:before {
   content: "\e906";
 }
-.icon-cup:before {
+.icon-features-4:before {
   content: "\e907";
 }
 .icon-delivery:before {
   content: "\e908";
 }
-.icon-eco:before {
+.icon-features-2:before {
   content: "\e909";
 }
-.icon-heart:before {
+.icon-features-3:before {
   content: "\e90a";
 }
 .icon-mail:before {
@@ -76,7 +76,7 @@
 .icon-phone:before {
   content: "\e910";
 }
-.icon-plant:before {
+.icon-features-1:before {
   content: "\e911";
 }
 .icon-plus:before {
